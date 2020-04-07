@@ -1,5 +1,5 @@
 import "./styles.css";
-import losing from "./assets/losing.mp3";
+import losing from "./assets/audio/losing.mp3";
 
 const alphaBetKeyMappings = {
   65: "a",
@@ -40,7 +40,7 @@ function Game() {
       {
         round: 1,
         word: "kobe bryant",
-        image: import("./assets/kobe.jpg"),
+        image: import("./assets/imgs/kobe.jpg"),
         audio: import("./assets/audio/kobe.mp3"),
         colorAccent: "#f9a004",
         secondaryAccent: "#6E61BC"
@@ -48,7 +48,7 @@ function Game() {
       {
         round: 2,
         word: "chicago bulls",
-        image: import("./assets/bulls.jpg"),
+        image: import("./assets/imgs/bulls.jpg"),
         audio: import("./assets/audio/bulls.mp3"),
         colorAccent: "#d91917",
         secondaryAccent: "#110107"
@@ -56,7 +56,7 @@ function Game() {
       {
         round: 3,
         word: "slam dunk",
-        image: import("./assets/dunk.jpg"),
+        image: import("./assets/imgs/dunk.jpg"),
         audio: import("./assets/audio/dunk.mp3"),
         colorAccent: "#EC6F21",
         secondaryAccent: "#1C1408"
@@ -64,7 +64,7 @@ function Game() {
       {
         round: 4,
         word: "spud webb",
-        image: import("./assets/spud.jpg"),
+        image: import("./assets/imgs/spud.jpg"),
         audio: import("./assets/audio/spud.mp3"),
         colorAccent: "#C02427",
         secondaryAccent: "#ECB547"
@@ -72,7 +72,7 @@ function Game() {
       {
         round: 5,
         word: "bill russell",
-        image: import("./assets/russell.jpg"),
+        image: import("./assets/imgs/russell.jpg"),
         audio: "",
         colorAccent: "#20503A",
         secondaryAccent: "#0F784E"
