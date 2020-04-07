@@ -1,6 +1,6 @@
 # NBA Hangman
 
-Guess what the pictures before running out of guesses!
+Guess what the picture is of before running out of guesses!
 
 ## Installation
 
