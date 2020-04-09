@@ -1,3 +1,5 @@
+const losingAudio = "/assets/audio/losing.mp3";
+
 const alphaBetKeyMappings = {
     65: "a",
     66: "b",
@@ -313,7 +315,7 @@ function Game() {
         let lossStatus = guessesRemaining === 0;
 
         if (lossStatus) {
-            playAudio("/assets/audio/losing.mp3");
+            playAudio(losingAudio);
         }
 
         return lossStatus;
