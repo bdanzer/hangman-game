@@ -313,7 +313,7 @@ function Game() {
         let lossStatus = guessesRemaining === 0;
 
         if (lossStatus) {
-            playAudio(losing);
+            playAudio("/assets/audio/losing.mp3");
         }
 
         return lossStatus;
